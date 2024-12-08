@@ -7,7 +7,6 @@
 \usepackage{url}
 \usepackage[nottoc, notlof, notlot]{tocbibind}
 \usepackage{listings}
-\usepackage{hyperref}
 
 \geometry{top=2cm, bottom=2cm, left=3cm, right=1.5cm}
 \lstset{
@@ -85,16 +84,8 @@ OSPF (Open Shortest Path First) — это протокол динамическ
 \section{Реализация}
 
 \subsection{Линейная топология}
-Узлы сети с линейной топологией имеют следующее расположение (рисунок 1).
 
-\begin{figure}[htbp]
-    \centering
-    \includegraphics[width=0.8\textwidth]{img/line_points.png}
-    \caption{Расположение узлов сети с линейной топологией}
-    \label{fig:hamiltonianGraph}
-\end{figure}
-
-Соответствующий граф сети приведён на рисунке 2. При радиусе соединения $r=1.5$.
+Граф сети с линейной топологией приведён на рисунке 1. При радиусе соединения $r=1.5$.
 
 \begin{figure}[htbp]
     \centering
@@ -110,7 +101,7 @@ OSPF (Open Shortest Path First) — это протокол динамическ
 
 Пути для всех узлов приведены в файле \texttt{/path/line\_ospf.txt}.
 
-Теперь удалим один узел из сети (например, узел 3). Тогда граф будет выглядеть следующим образом (рисунок 3).
+Теперь удалим один узел из сети (например, узел 3). Тогда граф будет выглядеть следующим образом (рисунок 2).
 
 \begin{figure}[htbp]
     \centering
@@ -124,18 +115,7 @@ OSPF (Open Shortest Path First) — это протокол динамическ
 \lstinputlisting[lastline=34, frame=single, caption=Содержимое файла line\_modified\_ospf.txt]{path/line_modified_ospf.txt}
 
 \subsection{Кольцевидная топология}
-
-Узлы сети с кольцевидной топологией имеют следующее расположение (рисунок 4).
-\clearpage
-\begin{figure}[htbp]
-    \centering
-    \includegraphics[width=0.6\textwidth]{img/ring_points.png}
-    \caption{Расположение узлов сети с кольцевидной топологией}
-    \label{fig:hamiltonianGraph}
-\end{figure}
-
-
-Соответствующий граф сети приведён на рисунке 5. При радиусе соединения $r=3.0$.
+Граф сети с кольцевидной топологией приведён на рисунке 3. При радиусе соединения $r=3.0$.
 
 \begin{figure}[htbp]
     \centering
@@ -150,7 +130,7 @@ OSPF (Open Shortest Path First) — это протокол динамическ
 
 Пути для всех узлов приведены в файле \texttt{/path/ring\_ospf.txt}.
 
-Теперь удалим один узел из сети (например, узел 3). Тогда граф будет выглядеть следующим образом (рисунок 6).
+Теперь удалим один узел из сети (например, узел 3). Тогда граф будет выглядеть следующим образом (рисунок 4).
 
 \clearpage
 \begin{figure}[htbp]
@@ -165,18 +145,7 @@ OSPF (Open Shortest Path First) — это протокол динамическ
 \lstinputlisting[lastline=33, frame=single, caption=Содержимое файла ring\_modified\_ospf.txt]{path/ring_modified_ospf.txt}
 
 \subsection{Звёздная топология}
-
-Узлы сети с звёздной топологией имеют следующее расположение (рисунок 7).
-\clearpage
-\begin{figure}[htbp]
-    \centering
-    \includegraphics[width=0.6\textwidth]{img/ring_points.png}
-    \caption{Расположение узлов сети с звёздной топологией}
-    \label{fig:hamiltonianGraph}
-\end{figure}
-
-
-Соответствующий граф сети приведён на рисунке 8.
+Граф сети с звёздной топологией приведён на рисунке 5.
 
 \begin{figure}[htbp]
     \centering
@@ -191,7 +160,7 @@ OSPF (Open Shortest Path First) — это протокол динамическ
 
 Пути для всех узлов приведены в файле \texttt{/path/star\_ospf.txt}.
 
-Теперь удалим один узел из сети (например, узел 3). Тогда граф будет выглядеть следующим образом (рисунок 9).
+Теперь удалим один узел из сети (например, узел 3). Тогда граф будет выглядеть следующим образом (рисунок 6).
 
 \clearpage
 \begin{figure}[htbp]
@@ -216,6 +185,8 @@ OSPF (Open Shortest Path First) — это протокол динамическ
 \end{itemize}
 
 \section{Код и ресурсы}
-Код проекта доступен в публичном \href{https://github.com/IlyaZawyalow/networks/tree/main/Lab2}{репозитории} на GitHub.
+Код проекта доступен в публичном репозитории на GitHub.
+
+https://github.com/IlyaZawyalow/networks/tree/main/Lab2
 
 \end{document}
