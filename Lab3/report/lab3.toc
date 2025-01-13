@@ -1,0 +1,8 @@
+\babel@toc {russian}{}\relax 
+\contentsline {section}{\numberline {1}Постановка задачи}{2}{}%
+\contentsline {section}{\numberline {2}Теория}{2}{}%
+\contentsline {subsection}{\numberline {2.1}Протоколы GBN и SRP}{2}{}%
+\contentsline {subsection}{\numberline {2.2}Вероятность потери узлов и перестройка топологии}{2}{}%
+\contentsline {section}{\numberline {3}Реализация}{2}{}%
+\contentsline {section}{\numberline {4}Результаты}{3}{}%
+\contentsline {section}{\numberline {5}Код и ресурсы}{5}{}%
